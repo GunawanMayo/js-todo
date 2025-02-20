@@ -1,3 +1,30 @@
-h1 {
-  color: red
+.content {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.todo-area {
+  margin-top: 50px;
+  padding: 20px;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+}
+
+.todo-area-title {
+  color: #4f80eb;
+  margin: 0;
+}
+
+.todo-ul {
+  padding-inline-start: 0px;
+  padding-left: none;
+}
+
+.todo-li {
+  margin: 2rem 2rem 2rem 0;
+  padding: 10px;
+  border-bottom: 1px solid #d1d1d1;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
 }
